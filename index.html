@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+      
+
+      <title>Responsive dropdown menu - Bedimcode</title>
+   </head>
+   <body>
+      
+      <div class="social">
+         <a href="https://www.facebook.com/profile.php?id=61557539050463&locale=ar_AR"><i class="fa-brands fa-facebook"></i></a>
+         <a href="https://chat.whatsapp.com/DasUq3lxARbLdO49bKfKrb"><i class="fa-brands fa-whatsapp"></i></a>
+         <!-- <i class="fa-regular fa-paper-plane"></i> -->
+         <a href="https://www.linkedin.com/company/nti-qena-ambassadors/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      
+      
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#" class="nav__logo">
+                  <img src="IMGs/logof.png" alt=""> Ambassadors
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="#" class="nav__link">Home</a></li>
+
+                  
+
+                  
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Branches Team <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="./Media and PR/index.html" class="dropdown__link">
+                              Media
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="./OC/index.html" class="dropdown__link">
+                              OC
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="./HR/index.html" class="dropdown__link">
+                              HR
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="./Media and PR/PR_page.html" class="dropdown__link">
+                             PR
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+
+                  <!-- <li class="dropdown__item">
+                     <div class="nav__link">
+                        Sessions <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-lock-line"></i> Offline
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-message-3-line"></i> Online
+                           </a>
+                        </li>
+                     </ul>
+                  </li> -->
+
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        <a href="./Events/index.html" style="color: black;">Events</a> <!--<i class="ri-arrow-down-s-line dropdown__arrow"></i>-->
+                     </div>
+
+                     <!-- <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              Event1
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                            Event2
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              Event3
+                           </a>
+                        </li>
+                     </ul> -->
+                  </li>
+
+                  <li><a href="https://www.nti.sci.eg/" class="nav__link">About us</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+      <!-- end of header -->
+
+      <!-- <div class="main">
+         <div class="container">
+             <h1>Our visoin</h1>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, expedita molestiae! Culpa, officia quia ipsam repudiandae laboriosam reprehenderit facere officiis eaque fugit voluptate praesentium excepturi, facilis nam atque, pariatur consectetur!</p>
+             <div class="btns">
+                 <button class="signup">Sign Up</button>
+                 <button class="login">Log In</button>
+             </div>
+         </div>
+         <div class="social">
+             <i class="fa-brands fa-facebook"></i>
+             <i class="fa-brands fa-whatsapp"></i>
+             <i class="fa-regular fa-paper-plane"></i>
+             <i class="fa-brands fa-twitter"></i>
+         </div>
+     </div> -->
+
+      <div class="slider-container">
+         <div class="slider">
+            <div class="slide current">
+               <img src="IMGs/conver.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+               <img src="IMGs/prot2.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+               <img src="IMGs/creativa2.jpg" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="IMGs/NTIBannar.jpg" alt="Image 4">
+            </div>
+            <!-- Add more slides as needed -->
+         </div>
+  
+         <!-- Navigation buttons -->
+         <div class="navigation">
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+         </div>
+  
+         <!-- Indicator Dots (Optional) -->
+         <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+         </div>
+      </div>
+      
+      <!-- ====================== -->
+
+      <!-- <section class="our-vision">
+         <h1><span>Our Vision</span></h1>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat repudiandae saepe eaque quibusdam deserunt ratione. Recusandae totam voluptate obcaecati, repudiandae sit odit ut nisi illo dolorem? Laboriosam earum suscipit, omnis explicabo sint, in consequuntur sequi ab porro quod similique ipsam numquam a natus repudiandae!Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia accusamus, cumque labore quaerat adipisci deleniti illo sit odio corrupti porro molestiae iste voluptates facilis! Voluptate dicta voluptatibus fuga impedit quod, eligendi iusto aliquid optio nobis ex, exercitationem vero quam! A quis natus neque minus dolorem voluptatibus perferendis iste temporibus amet odit ea ducimus corrupti nulla laboriosam, voluptatem dolore, tenetur tempora.Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nam earum cupiditate veritatis? Alias corporis tempora commodi dignissimos dolorum quisquam nostrum, nam voluptatum id adipisci dolorem libero, dicta voluptate totam inventore sequi omnis ea, reprehenderit harum! Dolores modi voluptas tempora error quae recusandae molestiae deserunt culpa voluptatem excepturi tenetur dicta perspiciatis, nihil quibusdam fugit quis reprehenderit iusto laborum vero asperiores!</p>
+         <button>Learn more</button>
+     </section> -->
+
+     <section class="about-us">
+         <h1>About Us</h1>
+         <p>We are the Ambassadors Team of the National Telecommunications Institute (NTI) in Qena. As a dedicated volunteer team, we strive to raise awareness about the diverse range of courses offered by NTI at its Qena branch. Our mission goes beyond mere promotion; we actively engage with university students, providing them with valuable assistance throughout the course application process. This includes offering guidance on course selection, answering any questions, and ensuring that students feel confident in their decisions. Additionally, we are committed to documenting these courses through high-quality photos and videos, capturing the essence of the learning experience and showcasing the skills and knowledge that students will acquire. By highlighting the unique opportunities available at NTI, we aim to inspire a new generation of learners to pursue their academic and professional goals with enthusiasm and determination.</p>
+         <!-- <div class="flip">
+            <div class="fcard">
+               <div class="front"><h3>any thing</h3></div>
+               <div class="back"><h3>som thing</h3></div>
+            </div>
+         </div> -->
+         <button><a href="https://www.nti.sci.eg/">Learn More</a></button>
+      </section>
+ 
+     <section class="Departments">
+         <h1><span>Team Departments</span></h1>
+         <div class="content">
+             <div class="card">
+                 <div class="image">
+                     <img src="IMGs/cards/media.jpg">
+                 </div>
+                 <div class="details">
+                     <h3>MEDIA</h3>
+                     <p>The Media Team is a dedicated group focused on promoting educational programs and initiatives. They create engaging content for social media, including videos and photos, to raise awareness and attract university students to various courses and activities offered by the organization.</p>
+                     <div class="info">
+                         <a href="./Media and PR/index.html"><i class="fa-solid fa-arrow-right"></i></a>
+                         <!-- <i class="fa-solid fa-ellipsis"></i> -->
+                     </div>
+                 </div>
+             </div>
+ 
+             <div class="card">
+                 <div class="image">
+                     <img src="IMGs/cards/oc.jpg">
+                 </div>
+                 <div class="details">
+                     <h3>OC</h3>
+                     <p>The OC Team is a dedicated group responsible for organizing and managing key events and activities. They coordinate online interviews, assist students with inquiries regarding available tracks, and ensure smooth registration processes, all while documenting team efforts to enhance future initiatives.</p>
+                     <div class="info">
+                        <a href="./OC/index.html"><i class="fa-solid fa-arrow-right"></i></a>
+                         <!-- <i class="fa-solid fa-ellipsis"></i> -->
+                     </div>
+                 </div>
+             </div>
+ 
+             <div class="card">
+                 <div class="image">
+                     <img src="IMGs/cards/hr.jpg">
+                 </div>
+                 <div class="details">
+                     <h3>HR</h3>
+                     <p>The HR Team plays a crucial role in monitoring and evaluating the performance of various teams. They focus on task completion, assess skill gaps, and actively motivate team members to improve overall productivity and engagement, ensuring a supportive work environment.</p>
+                     <div class="info">
+                        <a href="./HR/index.html"><i class="fa-solid fa-arrow-right"></i></a>
+                         <!-- <i class="fa-solid fa-ellipsis"></i> -->
+                     </div>
+                 </div>
+             </div>
+ 
+             <div class="card">
+                 <div class="image">
+                     <img src="IMGs/cards/pr.jpg">
+                 </div>
+                 <div class="details">
+                     <h3>PR</h3>
+                     <p>The PR Team is responsible for managing communication and public relations to enhance the organization's image. They develop strategies for outreach, create engaging content, and maintain relationships with stakeholders, ensuring effective dissemination of information and fostering a positive reputation.</p>
+                     <div class="info">
+                        <a href="./Media and PR/PR_page.html"><i class="fa-solid fa-arrow-right"></i></a>
+                         <!-- <i class="fa-solid fa-ellipsis"></i> -->
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+     <section class="ourVision">
+      <h1>Our vision</h1>
+      <p>Our team is dedicated to reaching as many students as possible to raise awareness about the diverse programs available. We create engaging content that highlights the benefits of these offerings and manage our social media platforms to maintain effective communication with our audience. Additionally, we organize and participate in events that connect us directly with students, providing them with essential information. By conveying the importance of these programs, we aim to empower students with valuable skills and knowledge that can lead to personal and professional growth. Ultimately, our goal is to contribute positively to the community by guiding students toward opportunities that can make a significant difference in their lives.</p>
+         <button><a href="https://www.nti.sci.eg/">Learn More</a></button>
+     </section>
+
+     <section class="statics">
+      <h1>statics</h1>
+      <div class="box">
+         <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="IMGs/Media.jpg" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3>Media</h1>
+                    <p>30</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+         <div class="flip-card-inner">
+             <div class="flip-card-front">
+                 <img src="IMGs/HR.jpg" alt="">
+             </div>
+             <div class="flip-card-back">
+                 <h3>HR</h3>
+                 <p>11</p>
+             </div>
+         </div>
+         </div>
+         <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="IMGs/OC.jpg" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3>OC</h3>
+                    <p>20</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+         <div class="flip-card-inner">
+             <div class="flip-card-front">
+                 <img src="IMGs/PR.jpg" alt="">
+             </div>
+             <div class="flip-card-back">
+                 <h3>PR</h3>
+                 <p>7</p>
+             </div>
+         </div>
+     </div>
+      </div>
+     </section>
+ 
+     <!-- <section class="statics">
+         <h1><span>Statics</span></h1>
+         <div class="stat"></div>
+     </section> -->
+ 
+     <!-- <footer>
+         <div class="icons">
+             <a href="#"><i class="fa-brands fa-facebook"></i></a>
+             <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+             <a href="#"><i class="fa-brands fa-twitter"></i></a>
+             <a href="#"><i class="fa-brands fa-telegram"></i></a>
+         </div>
+         <div class="head">
+             <a href="">Home</a>
+             <a href="">Branches</a>
+             <a href="">Sessions</a>
+             <a href="">Events</a>
+             <a href="">services</a>
+         </div>
+         <div class="copy-right">NTI Ambassadors © 1983</div>
+     </footer> -->
+
+     <footer class="footer">
+      <div class="footer-content">
+          <div class="footer-section about-nti">
+              <h3>About NTI</h3>
+              <p>
+                  The National Telecommunication Institute (NTI) is a scientific institute with great influence in the field of communications and IT.
+              </p>
+          </div>
+  
+          <div class="footer-section quick-links">
+              <h3>Quick Links</h3>
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="https://www.nti.sci.eg/">About Us</a></li>
+                  <li><a href="https://www.nti.sci.eg/dey/specialized_programs.html">Courses</a></li>
+                  <li><a href="https://www.facebook.com/profile.php?id=61557539050463&locale=ar_AR">Contact</a></li>
+              </ul>
+          </div>
+  
+          <div class="footer-section contact-info">
+              <h3>Contact Us</h3>
+              <ul>
+                  <li><i class="fas fa-map-marker-alt"></i> 5 El-Nasr Road, Nasr City, Cairo, Egypt</li>
+                  <li><i class="fas fa-phone-alt"></i> +20 2 2674 2222</li>
+                  <li><i class="fas fa-envelope"></i> nti@nti.sci.eg</li>
+              </ul>
+          </div>
+      </div>
+  
+      <div class="footer-bottom">
+          &copy; 2024 National Telecommunication Institute | All rights reserved.
+      </div>
+  </footer>
+  
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
